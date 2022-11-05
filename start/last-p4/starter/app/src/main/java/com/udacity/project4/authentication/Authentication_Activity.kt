@@ -21,12 +21,12 @@ import com.udacity.project4.locationreminders.RemindersActivity
  * This class should be the starting point of the app, It asks the users to sign in / register, and redirects the
  * signed in users to the RemindersActivity.
  */
-class AuthenticationActivity : AppCompatActivity() {
+class Authentication_Activity : AppCompatActivity() {
 
     private val authenticationViewModel by viewModels<AuthenticationViewModel>()
 
     companion object {
-        const val TAG = "AuthenticationActivity"
+        const val TAG = "Authentication_Activity"
         const val SIGN_IN_RESULT_CODE = 1001
     }
 

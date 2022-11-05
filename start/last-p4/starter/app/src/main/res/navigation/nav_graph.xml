@@ -6,12 +6,12 @@
 
     <activity
         android:id="@+id/authenticationActivity"
-        android:name="com.udacity.project4.authentication.AuthenticationActivity"
+        android:name="com.udacity.project4.authentication.Authentication_Activity"
         android:label="AuthenticationActivity" />
 
     <fragment
         android:id="@+id/reminderListFragment"
-        android:name="com.udacity.project4.locationreminders.reminderslist.ReminderListFragment"
+        android:name="com.udacity.project4.locationreminders.reminderslist.Reminder_List_Fragment"
         android:label="ReminderListFragment">
         <action
             android:id="@+id/to_save_reminder"
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/selectLocationFragment"
-        android:name="com.udacity.project4.locationreminders.savereminder.selectreminderlocation.SelectLocationFragment"
+        android:name="com.udacity.project4.locationreminders.savereminder.selectreminderlocation.Select_Location_Fragment"
         android:label="Select Location" />
 
 </navigation>

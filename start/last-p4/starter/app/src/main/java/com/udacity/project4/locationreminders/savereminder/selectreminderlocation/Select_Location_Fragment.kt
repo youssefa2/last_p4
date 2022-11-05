@@ -37,12 +37,12 @@ import org.koin.android.ext.android.bind
 import org.koin.android.ext.android.inject
 import java.lang.Exception
 
-class SelectLocationFragment : BaseFragment(), OnMapReadyCallback {
+class Select_Location_Fragment : BaseFragment(), OnMapReadyCallback {
 
     companion object {
         const val LOCATION_REQUEST = 1000
 
-        const val TAG = "SelectLocationFragment"
+        const val TAG = "Select_Location_Fragment"
     }
 
     //Use Koin to get the view model of the SaveReminder
